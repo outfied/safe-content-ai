@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  safe-content-ai:
+    build: .
+    ports:
+      - "8000:8000"
